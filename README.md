@@ -23,7 +23,7 @@ public class RegularExpressionsTest {
 }
 ```
 
-#Coloring
+# Coloring
 The library also allows you to work with text color in the console. Usage example:
 
 ```java
