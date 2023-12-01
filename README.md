@@ -4,7 +4,7 @@
 Jregex - A simple library for easily working with regular expressions and text colors in the terminal
 </div>
 
-## Examples
+# Examples
 The library allows you to work with regular expressions simply and clearly.
 Jregex example:
 
@@ -22,7 +22,8 @@ public class RegularExpressionsTest {
     }
 }
 ```
-##Coloring
+
+#Coloring
 The library also allows you to work with text color in the console. Usage example:
 
 ```java
