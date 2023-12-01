@@ -9,14 +9,18 @@ The library allows you to work with regular expressions simply and clearly.
 Jregex example:
 
 
-```jshelllanguage
-String pattern = new JRegex()
-        .digit().times(5)
-        .just("-")
-        .digit().times(4).optional()
-        .build();
+```java
+public class RegularExpressionsTest {
+    public static void main(String[] args) {
+        String pattern = new JRegex()
+                .digit().times(5)
+                .just("-")
+                .digit().times(4).optional()
+                .build();
 
         System.out.println(pattern);  // Output: \d{5}(-\d{4})?
+    }
+}
 ```
 ##Coloring
 The library also allows you to work with text color in the console. Usage example:
