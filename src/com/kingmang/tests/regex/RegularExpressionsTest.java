@@ -1,7 +1,7 @@
 package com.kingmang.tests.regex;
 
 
-import com.kingmang.jterminal.JRegex.JRegex;
+import com.kingmang.jreg.JRegex;
 
 public class RegularExpressionsTest {
     public static void main(String[] args) {

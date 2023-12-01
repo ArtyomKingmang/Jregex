@@ -1,4 +1,4 @@
-package com.kingmang.jterminal.JRegex;
+package com.kingmang.jreg;
 
 public class JRegex {
     private StringBuilder regex;

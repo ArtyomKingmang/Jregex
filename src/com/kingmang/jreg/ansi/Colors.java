@@ -1,4 +1,4 @@
-package com.kingmang.jterminal.ansi;
+package com.kingmang.jreg.ansi;
 
 public class Colors {
     public static final String ANSI_RESET = "\u001B[0m";
