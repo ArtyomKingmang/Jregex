@@ -1,6 +1,4 @@
 package com.kingmang.tests.regex;
-
-
 import com.kingmang.jreg.JRegex;
 
 public class RegularExpressionsTest {
@@ -34,6 +32,9 @@ public class RegularExpressionsTest {
                 .ending()
                 .build();
         System.out.println(pattern);  // Output: ^\d{3}-\w{3,6}$
+
+        pattern = new JRegex().unicode().just("001B").build();
+        System.out.println(pattern);
     }
 
 }

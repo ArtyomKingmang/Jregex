@@ -16,7 +16,10 @@ public class JRegex {
         regex.append(str);
         return this;
     }
-
+    public JRegex unicode(){
+        regex.append("\\u");
+        return this;
+    }
     public JRegex times(int n) {
         regex.append("{").append(n).append("}");
         return this;
